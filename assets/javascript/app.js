@@ -128,10 +128,10 @@ $(document).ready(function () {
         this.directionsDisplay.setMap(map);
 
         var originAutocomplete = new google.maps.places.Autocomplete(
-            originInput, { placeIdOnly: true });
+            originInput, { fields: ['place_id'] });
             
         var destinationAutocomplete = new google.maps.places.Autocomplete(
-            destinationInput, { placeIdOnly: true });
+            destinationInput, { fields: ['place_id'] });
             console.log(destinationAutocomplete);
 
         this.setupPlaceChangedListener(originAutocomplete, 'ORIG');
