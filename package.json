@@ -1,0 +1,22 @@
+{
+  "name": "routevisor",
+  "version": "1.0.0",
+  "description": "In this group project, we solved the need for a web application that splits a long driving trip into shorter legs in miles as defined by the user. We solved this issue with a collaborative effort, combining our knowledge of HTML, CSS, Bootstrap, JavaScript, jQuery and APIs to create a dynamic functioning app. It utilizes the Google Maps API, OpenWeatherMap API, and Heroku as well as the languages previously mentioned.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenmaz12/routevisor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jenmaz12/routevisor/issues"
+  },
+  "homepage": "https://github.com/jenmaz12/routevisor#readme",
+  "dependencies": {
+    "firebase": "^8.6.1"
+  }
+}
