@@ -6,4 +6,4 @@ The application displays a route from user-defined locations and as user types, 
 
 ## Live Demo
 
-https://group3tripplanner.herokuapp.com/
+https://route-visor.herokuapp.com/
